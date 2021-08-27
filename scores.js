@@ -6,6 +6,7 @@ let scores = [60, 50, 60, 58, 54, 54,
     46, 31, 57, 52, 44, 18,
     41, 53, 55, 61, 51, 44];
 
+let output;
 let max = 0;
 let maxNum = [];
 
@@ -14,7 +15,8 @@ for (let i = 0; i < scores.length; i++) {
         max = scores[i];
     }
 
-    console.log(`Bubble solution #${i} score: ${scores[i]}`);
+    output = `Bubble solution #${i} score: ${scores[i]}`
+    console.log(output);
 }
 
 for (let i = 0; i < scores.length; i++) {
